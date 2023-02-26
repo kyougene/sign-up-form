@@ -26,11 +26,35 @@
                 </h2>
             </div>
             <div class="form">
+                <fieldset>
+                    <h3 class="form-title">Let's Do This!</h3>
+                    <form action="example.com/path" method="post" class="form">
+                        <label for="first_name">*First Name:</label>
+                        <input type="text" id="first_name" name="first_name" required>
 
-            </div>
-            <div class="login">
+                        <label for="last_name">*Last Name:</label>
+                        <input type="text" id="last_name" name="last_name" required>
 
+                        <label for="email_address">*Email Address:</label>
+                        <input type="email" name="email_address" id="email_address" required>
+
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="tel" name="phone_number" id="phone_number">
+
+                        <label for="password">*Password:</label>
+                        <input type="password" name="password" id="password" required>
+
+                        <label for="reenter_password">*Re-Enter Password</label>
+                        <input type="password" name="reenter_password" id="reenter_password" required>
+                    </form>
+                </fieldset>
             </div>
+            <div class="create">
+                <button id="create-an-account">Create An Account</button> 
+                <div class="login">
+                    <h2>Already have an account?</h2>
+                    <button id='log-in'>Log In</button>
+                </div>
         </div>
     </div>
 </body>
