@@ -28,24 +28,28 @@
             <div class="form">
                 <fieldset>
                     <h3 class="form-title">Let's Do This!</h3>
-                    <form action="example.com/path" method="post" class="form">
-                        <label for="first_name">*First Name:</label>
-                        <input type="text" id="first_name" name="first_name" required>
+                    <form action="example.com/path" method="post" class="form-main">
+                        <div class="left">
+                            <label for="first_name">*First Name</label>
+                            <input type="text" id="first_name" name="first_name" required>
 
-                        <label for="last_name">*Last Name:</label>
-                        <input type="text" id="last_name" name="last_name" required>
+                            <label for="email_address">*Email Address</label>
+                            <input type="email" name="email_address" id="email_address" required>
 
-                        <label for="email_address">*Email Address:</label>
-                        <input type="email" name="email_address" id="email_address" required>
-
-                        <label for="phone_number">Phone Number:</label>
-                        <input type="tel" name="phone_number" id="phone_number">
-
-                        <label for="password">*Password:</label>
-                        <input type="password" name="password" id="password" required>
-
-                        <label for="reenter_password">*Re-Enter Password</label>
-                        <input type="password" name="reenter_password" id="reenter_password" required>
+                            <label for="password">*Password</label>
+                            <input type="password" name="password" id="password" required>
+    
+                        </div>
+                        <div class="right">
+                            <label for="last_name">*Last Name</label>
+                            <input type="text" id="last_name" name="last_name" required>
+    
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" name="phone_number" id="phone_number">
+    
+                            <label for="reenter_password">*Re-Enter Password</label>
+                            <input type="password" name="reenter_password" id="reenter_password" required>
+                        </div>
                     </form>
                 </fieldset>
             </div>
