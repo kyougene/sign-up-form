@@ -46,7 +46,7 @@
     background-color: #000000;
     width: 100%;
     height: 33%;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .descrip, .remote-text {
@@ -64,7 +64,7 @@
     background-color: rgb(6, 6, 6);
     width: 100%;
     height: 33%;
-    flex-grow: 1;
+    flex: 1;
 }
 
 .right, .left {
@@ -91,6 +91,7 @@ input {
     background-color: rgb(6, 6, 6);
     border: 1px solid grey;
     width: 200px;
+    color: white;
 }
 
 .form-title {
@@ -105,4 +106,58 @@ input {
     display: flex;
     justify-content: left;
     gap: 10%;
+}
+
+.create {
+    height: 33%;
+    width: 100%;
+    flex: 1;
+    background-color: #000000;
+}
+
+.create-buttons {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.login {
+    display: flex;
+    gap: 1%;
+    margin-top: 2%;
+}
+
+.login p {
+    color: grey;
+    font-weight: bold;
+}
+
+#log-in {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+#create-an-account{
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 20%;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 8%;
+    padding: 2%;
+    box-shadow: 2px 2px 5px rgba(105, 105, 105, 0.5);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+#create-an-account:active {
+    box-shadow: -2px -2px 5px (105, 105, 105, 0.5);
+    border-color: white;
 }
